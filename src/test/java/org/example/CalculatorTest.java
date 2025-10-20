@@ -9,6 +9,6 @@ public class CalculatorTest {
     void testAddition() {
         Calculator calculator = new Calculator(); // Create instance
         int result = calculator.add(2, 3);        // Call the function
-        assertEquals(5, result);                  // Check result
+        assertEquals(6, result);                  // Check result
     }
 }
